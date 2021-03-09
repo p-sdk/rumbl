@@ -9,6 +9,12 @@ defmodule Rumbl.Multimedia do
   alias Rumbl.Multimedia.{Category, Video}
   alias Rumbl.Accounts
 
+  def list_alphabetical_categories do
+    Category
+    |> Category.alphabetical()
+    |> Repo.all()
+  end
+
   def create_category!(name) do
     Repo.insert!(%Category{name: name}, on_conflict: :nothing)
   end
