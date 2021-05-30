@@ -111,7 +111,7 @@ defmodule RumblWeb.VideoControllerTest do
       update_conn =
         put(conn, Routes.video_path(conn, :update, video), video: %{title: "funny dogs"})
 
-      assert redirected_to(update_conn) == Routes.video_path(update_conn, :show, video)
+      assert redirected_to(update_conn) =~ Routes.video_path(update_conn, :show, video.id)
 
       conn = get(conn, Routes.video_path(conn, :show, video))
       assert html_response(conn, 200) =~ "funny dogs"
