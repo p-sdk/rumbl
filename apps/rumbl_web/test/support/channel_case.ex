@@ -31,6 +31,15 @@ defmodule RumblWeb.ChannelCase do
   setup tags do
     pid = Ecto.Adapters.SQL.Sandbox.start_owner!(Rumbl.Repo, shared: not tags[:async])
     on_exit(fn -> Ecto.Adapters.SQL.Sandbox.stop_owner(pid) end)
+
+    on_exit(fn ->
+      :timer.sleep(10)
+      for pid <- RumblWeb.Presence.fetchers_pids() do
+        ref = Process.monitor(pid)
+        assert_receive {:DOWN, ^ref, _, _, _}, 1000
+      end
+    end)
+
     :ok
   end
 end
