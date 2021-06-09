@@ -1,5 +1,5 @@
 defmodule InfoSys.Test.HTTPClient do
-  @wolfram_xml File.read!("test/fixtures/wolfram.xml")
+  @wolfram_xml __DIR__ |> Path.join("../fixtures/wolfram.xml") |> File.read!()
 
   def request(url) do
     url = to_string(url)
