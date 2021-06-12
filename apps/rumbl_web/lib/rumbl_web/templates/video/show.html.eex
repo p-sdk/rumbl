@@ -1,23 +1,23 @@
-<h1>Show Video</h1>
+<h1><%= gettext "Show Video" %></h1>
 
 <ul>
 
   <li>
-    <strong>Url:</strong>
+    <strong><%= gettext "URL" %>:</strong>
     <%= @video.url %>
   </li>
 
   <li>
-    <strong>Title:</strong>
+    <strong><%= gettext "Title" %>:</strong>
     <%= @video.title %>
   </li>
 
   <li>
-    <strong>Description:</strong>
+    <strong><%= gettext "Description" %>:</strong>
     <%= @video.description %>
   </li>
 
 </ul>
 
-<span><%= link "Edit", to: Routes.video_path(@conn, :edit, @video) %></span>
-<span><%= link "Back", to: Routes.video_path(@conn, :index) %></span>
+<span><%= link gettext("Edit"), to: Routes.video_path(@conn, :edit, @video) %></span>
+<span><%= link gettext("Back"), to: Routes.video_path(@conn, :index) %></span>

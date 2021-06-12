@@ -1,9 +1,9 @@
-<h1>Listing Videos</h1>
+<h1><%= gettext "Listing Videos" %></h1>
 
 <table>
   <thead>
     <tr>
-      <th>Title</th>
+      <th><%= gettext "Title" %></th>
       <th></th>
       <th></th>
       <th></th>
@@ -14,17 +14,17 @@
     <tr>
       <td><%= video.title %></td>
       <td>
-        <span><%= link "Edit", to: Routes.video_path(@conn, :edit, video) %></span>
+        <span><%= link gettext("Edit"), to: Routes.video_path(@conn, :edit, video) %></span>
       </td>
       <td>
-        <span><%= link "Delete", to: Routes.video_path(@conn, :delete, video), method: :delete, data: [confirm: "Are you sure?"] %></span>
+        <span><%= link gettext("Delete"), to: Routes.video_path(@conn, :delete, video), method: :delete, data: [confirm: gettext "Are you sure?"] %></span>
       </td>
       <td>
-        <span><%= link "Watch", to: Routes.watch_path(@conn, :show, video), class: "button" %></span>
+        <span><%= link gettext("Watch"), to: Routes.watch_path(@conn, :show, video), class: "button" %></span>
       </td>
     </tr>
 <% end %>
   </tbody>
 </table>
 
-<span><%= link "New Video", to: Routes.video_path(@conn, :new) %></span>
+<span><%= link gettext("New Video"), to: Routes.video_path(@conn, :new) %></span>
