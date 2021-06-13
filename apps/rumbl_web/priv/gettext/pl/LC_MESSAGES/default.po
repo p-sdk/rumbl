@@ -1,0 +1,227 @@
+## "msgid"s in this file come from POT (.pot) files.
+##
+## Do not add, change, or remove "msgid"s manually here as
+## they're tied to the ones in the corresponding POT file
+## (with the same domain).
+##
+## Use "mix gettext.extract --merge" or "mix gettext.merge"
+## to merge POT files into PO files.
+msgid ""
+msgstr ""
+"Language: pl\n"
+"Plural-Forms: nplurals=3\n"
+
+#, elixir-format
+#: lib/rumbl_web/templates/page/index.html.eex:2
+msgid "Welcome to %{name}!"
+msgstr "Witamy w %{name}!"
+
+#, elixir-format
+#: lib/rumbl_web/controllers/user_controller.ex:29
+msgid "%{name} created!"
+msgstr "Utworzono %{name}!"
+
+#, elixir-format
+#: lib/rumbl_web/templates/watch/show.html.eex:10
+msgid "Annotations"
+msgstr "Adnotacje"
+
+#, elixir-format
+#: lib/rumbl_web/templates/video/index.html.eex:20
+msgid "Are you sure?"
+msgstr "Jesteś pewny?"
+
+#, elixir-format
+#: lib/rumbl_web/templates/video/edit.html.eex:5
+#: lib/rumbl_web/templates/video/new.html.eex:5 lib/rumbl_web/templates/video/show.html.eex:23
+msgid "Back"
+msgstr "Wstecz"
+
+#, elixir-format
+#: lib/rumbl_web/templates/video/form.html.eex:12
+msgid "Category"
+msgstr "Kategoria"
+
+#, elixir-format
+#: lib/rumbl_web/templates/video/form.html.eex:13
+msgid "Choose a category"
+msgstr "Wybierz kategorię"
+
+#, elixir-format
+#: lib/rumbl_web/templates/watch/show.html.eex:16
+msgid "Comment..."
+msgstr "Komentuj..."
+
+#, elixir-format
+#: lib/rumbl_web/templates/user/new.html.eex:21
+msgid "Create User"
+msgstr "Utwórz użytkownika"
+
+#, elixir-format
+#: lib/rumbl_web/templates/video/index.html.eex:20
+msgid "Delete"
+msgstr "Usuń"
+
+#, elixir-format
+#: lib/rumbl_web/templates/video/form.html.eex:19
+#: lib/rumbl_web/templates/video/show.html.eex:16
+msgid "Description"
+msgstr "Opis"
+
+#, elixir-format
+#: lib/rumbl_web/templates/video/index.html.eex:17
+#: lib/rumbl_web/templates/video/show.html.eex:22
+msgid "Edit"
+msgstr "Edytuj"
+
+#, elixir-format
+#: lib/rumbl_web/templates/video/edit.html.eex:1
+msgid "Edit Video"
+msgstr "Edytuj wideo"
+
+#, elixir-format
+#: lib/rumbl_web/controllers/session_controller.ex:18
+msgid "Invalid username/password combination"
+msgstr "Błędne hasło / nazwa użytkownika"
+
+#, elixir-format
+#: lib/rumbl_web/templates/user/index.html.eex:1
+msgid "Listing Users"
+msgstr "Lista użytkowników"
+
+#, elixir-format
+#: lib/rumbl_web/templates/video/index.html.eex:1
+msgid "Listing Videos"
+msgstr "Lista wideo"
+
+#, elixir-format
+#: lib/rumbl_web/templates/layout/app.html.eex:23
+#: lib/rumbl_web/templates/session/new.html.eex:10
+msgid "Log in"
+msgstr "Zaloguj się"
+
+#, elixir-format
+#: lib/rumbl_web/templates/layout/app.html.eex:20
+msgid "Log out"
+msgstr "Wyloguj się"
+
+#, elixir-format
+#: lib/rumbl_web/templates/session/new.html.eex:1
+msgid "Login"
+msgstr "Logowanie"
+
+#, elixir-format
+#: lib/rumbl_web/templates/layout/app.html.eex:19
+msgid "My Videos"
+msgstr "Moje wideo"
+
+#, elixir-format
+#: lib/rumbl_web/templates/user/new.html.eex:10
+msgid "Name"
+msgstr "Imię"
+
+#, elixir-format
+#: lib/rumbl_web/templates/user/new.html.eex:1
+msgid "New User"
+msgstr "Nowy użytkownik"
+
+#, elixir-format
+#: lib/rumbl_web/templates/video/index.html.eex:30
+#: lib/rumbl_web/templates/video/new.html.eex:1
+msgid "New Video"
+msgstr "Nowe wideo"
+
+#, elixir-format
+#: lib/rumbl_web/templates/user/new.html.eex:6
+#: lib/rumbl_web/templates/video/form.html.eex:4
+msgid "Oops, something went wrong! Please check the errors below."
+msgstr "Ups, coś poszło źle! Proszę sprawdź błędy poniżej."
+
+#, elixir-format
+#: lib/rumbl_web/templates/session/new.html.eex:8
+#: lib/rumbl_web/templates/user/new.html.eex:18
+msgid "Password"
+msgstr "Hasło"
+
+#, elixir-format
+#: lib/rumbl_web/templates/watch/show.html.eex:19
+msgid "Post"
+msgstr "Wyślij"
+
+#, elixir-format
+#: lib/rumbl_web/templates/layout/app.html.eex:22
+msgid "Register"
+msgstr "Zarejestruj się"
+
+#, elixir-format
+#: lib/rumbl_web/templates/video/form.html.eex:24
+msgid "Save"
+msgstr "Zapisz"
+
+#, elixir-format
+#: lib/rumbl_web/templates/video/show.html.eex:1
+msgid "Show Video"
+msgstr "Pokaż wideo"
+
+#, elixir-format
+#: lib/rumbl_web/templates/user/show.html.eex:1
+msgid "Showing User"
+msgstr "Pokaż użytkownika"
+
+#, elixir-format
+#: lib/rumbl_web/templates/video/form.html.eex:15
+#: lib/rumbl_web/templates/video/index.html.eex:6 lib/rumbl_web/templates/video/show.html.eex:11
+msgid "Title"
+msgstr "Tytuł"
+
+#, elixir-format
+#: lib/rumbl_web/templates/video/form.html.eex:8
+#: lib/rumbl_web/templates/video/show.html.eex:6
+msgid "URL"
+msgstr "URL"
+
+#, elixir-format
+#: lib/rumbl_web/templates/session/new.html.eex:5
+#: lib/rumbl_web/templates/user/new.html.eex:14
+msgid "Username"
+msgstr "Nazwa użytkownika"
+
+#, elixir-format
+#: lib/rumbl_web/templates/watch/show.html.eex:27
+msgid "Users"
+msgstr "Użytkownicy"
+
+#, elixir-format
+#: lib/rumbl_web/controllers/video_controller.ex:27
+msgid "Video created successfully."
+msgstr "Wideo pomyślnie utworzone"
+
+#, elixir-format
+#: lib/rumbl_web/controllers/video_controller.ex:65
+msgid "Video deleted successfully."
+msgstr "Wideo pomyślnie usunięte"
+
+#, elixir-format
+#: lib/rumbl_web/controllers/video_controller.ex:52
+msgid "Video updated successfully."
+msgstr "Wideo pomyślnie zaktualizowane"
+
+#, elixir-format
+#: lib/rumbl_web/templates/user/index.html.eex:7
+msgid "View"
+msgstr "Zobacz"
+
+#, elixir-format
+#: lib/rumbl_web/templates/video/index.html.eex:23
+msgid "Watch"
+msgstr "Oglądaj"
+
+#, elixir-format
+#: lib/rumbl_web/controllers/session_controller.ex:13
+msgid "Welcome back!"
+msgstr "Witamy z powrotem!"
+
+#, elixir-format
+#: lib/rumbl_web/controllers/auth.ex:40
+msgid "You must be logged in to access that page"
+msgstr "Musisz być zalogowany by dostać się do tej strony"
